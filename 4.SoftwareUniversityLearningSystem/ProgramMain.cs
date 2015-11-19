@@ -20,7 +20,7 @@
                 new GraduateStudent("Ivancho", "Mariikin", 16, 159, 2.55),
                 new GraduateStudent("Pesho", "Goshev", 2, 159, 6.00),
                 new SeniorTrainer("Svetlin", "Nakov", 50),
-                new Trainer("Koicho", "Koichev", 99),
+                new JuniorTrainer("Koicho", "Koichev", 99),
             };
 
             persons

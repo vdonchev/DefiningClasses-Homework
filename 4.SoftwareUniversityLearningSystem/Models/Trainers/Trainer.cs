@@ -3,9 +3,9 @@
     using System;
     using Interfaces;
 
-    public class Trainer : Person, ICreate
+    public abstract class Trainer : Person, ICreate
     {
-        public Trainer(string firstName, string lastName, int age) 
+        protected Trainer(string firstName, string lastName, int age) 
             : base(firstName, lastName, age)
         {
         }

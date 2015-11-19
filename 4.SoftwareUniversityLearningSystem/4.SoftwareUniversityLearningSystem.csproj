@@ -53,6 +53,7 @@
     <Compile Include="Models\Students\OnlineStudent.cs" />
     <Compile Include="Models\Students\OnsiteStudent.cs" />
     <Compile Include="Models\Students\Student.cs" />
+    <Compile Include="Models\Trainers\JuniorTrainer.cs" />
     <Compile Include="Models\Trainers\SeniorTrainer.cs" />
     <Compile Include="Models\Trainers\Trainer.cs" />
     <Compile Include="ProgramMain.cs" />

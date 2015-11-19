@@ -1,14 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Person" Collapsed="true">
-    <Position X="17.25" Y="0.5" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAABAQAAEAEAAAAAAAAAAAAAAAAAACAAAAAg=</HashCode>
       <FileName>Models\Person.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="_4.SoftwareUniversityLearningSystem.Models.JuniorTrainer" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Trainers\JuniorTrainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.SeniorTrainer" Collapsed="true">
-    <Position X="12.75" Y="3.25" Width="1.5" />
+    <Position X="11.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
       <FileName>Models\Trainers\SeniorTrainer.cs</FileName>
@@ -16,7 +24,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Trainer" Collapsed="true">
-    <Position X="12.75" Y="1.75" Width="1.5" />
+    <Position X="10.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Trainers\Trainer.cs</FileName>
@@ -24,14 +32,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Students.CurrentStudent" Collapsed="true">
-    <Position X="18.5" Y="3.25" Width="1.5" />
+    <Position X="6" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
       <FileName>Models\Students\CurrentStudent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Students.DropoutStudent" Collapsed="true">
-    <Position X="21.75" Y="3.25" Width="1.5" />
+    <Position X="0.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAQAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>Models\Students\DropoutStudent.cs</FileName>
@@ -39,56 +47,56 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Students.GraduateStudent" Collapsed="true">
-    <Position X="15" Y="3.25" Width="1.5" />
+    <Position X="2.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Students\GraduateStudent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Students.OnlineStudent" Collapsed="true">
-    <Position X="17.25" Y="4.75" Width="1.5" />
+    <Position X="5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Students\OnlineStudent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Students.OnsiteStudent" Collapsed="true">
-    <Position X="19.5" Y="4.75" Width="1.5" />
+    <Position X="7.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>Models\Students\OnsiteStudent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.Models.Students.Student" Collapsed="true">
-    <Position X="18.5" Y="1.75" Width="1.5" />
+    <Position X="3.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAEAIAAAAAAAAAAAAACAAAAAgAAAAA=</HashCode>
       <FileName>Models\Students\Student.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_4.SoftwareUniversityLearningSystem.ProgramMain" Collapsed="true">
-    <Position X="24.25" Y="0.5" Width="1.5" />
+    <Position X="14.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>ProgramMain.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="_4.SoftwareUniversityLearningSystem.Interfaces.ICreate" Collapsed="true">
-    <Position X="24.25" Y="1.75" Width="1.5" />
+    <Position X="14.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ICreate.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="_4.SoftwareUniversityLearningSystem.Interfaces.IDelete" Collapsed="true">
-    <Position X="26" Y="1.75" Width="1.5" />
+    <Position X="16" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
       <FileName>Interfaces\IDelete.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="_4.SoftwareUniversityLearningSystem.Interfaces.IReapply" Collapsed="true">
-    <Position X="24.25" Y="2.5" Width="1.5" />
+    <Position X="14.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IReapply.cs</FileName>
